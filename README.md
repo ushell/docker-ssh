@@ -1,7 +1,8 @@
 ## Docker-ssh
 
-![k8s-tools](./images/kubernetes-stacked.svg)
-![k8s-ssh](./images/bash.svg)
+<img src="images/kubernetes-stacked.svg" alt="k8s" width="150"/>
+
+<img src="./images/bash.svg" alt="k8s-ssh" width="130"/>
 
 ## Description
 调试K8S环境中容器常规操作通过kubectl或者telepresence代理形式，如果没有具体的操作权限可以通过ssh方式附加到Pod中调试目标容器。
@@ -28,7 +29,7 @@ user <--> browser <--> Pod[docker-ssh <--> target container]
 ```
 # SSH公钥私钥配置
 1. ssh-keygen
-2. copy id_rsa.pub keys
+2. copy id_rsa.pub ./keys
 ```
 
 * step2
